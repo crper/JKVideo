@@ -41,21 +41,12 @@
       "expo-router",
       "react-native-video",
       "expo-screen-orientation",
-      "expo-updates",
-      "@sentry/react-native/expo"
+"@sentry/react-native/expo"
     ],
     "experiments": {
       "typedRoutes": true
     },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/eac4192a-ae80-461c-8fff-6e1a8b777bd1",
-      "checkAutomatically": "ON_LOAD",
-      "fallbackToCacheTimeout": 0
-    },
-    "extra": {
+"extra": {
       "router": {},
       "eas": {
         "projectId": "eac4192a-ae80-461c-8fff-6e1a8b777bd1"
